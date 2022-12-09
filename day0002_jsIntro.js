@@ -42,3 +42,25 @@
 
 </body>
 </html>
+
+
+<h2>JavaScript Statements</h2>
+
+<p>In HTML, JavaScript statements are executed by the browser.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello Dolly.";
+</script>
+
+<p id="xina">Where is my ice cream?</p>
+
+<script>
+function myFunction() {
+  document.getElementById("xina").innerHTML = "Xina Bing Chiling ate it, LOL :v !!!";
+}
+</script>
+
+<button type="button" onclick="myFunction()")>"Find it now"</button>
+
