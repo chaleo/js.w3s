@@ -24,3 +24,19 @@ let b = 2;
 let c = a + b;
 document.getElementById("demo3").innerHTML = c;
 </script>
+
+<p id="demo4"></p>
+
+<script>
+let text = "Hello";
+text += " World";
+document.getElementById("demo4").innerHTML = text;
+</script>
+
+<p id="demo5"></p>
+
+<script>
+let e = 10;
+e -= 5;
+document.getElementById("demo5").innerHTML = "Value of e is: " + e;
+</script>
