@@ -32,7 +32,7 @@ let y = false;
 const person = {firstName:"John", lastName:"Doe"};
 
 // Array object:
-const cars = ["Saab", "Volvo", "BMW"];
+const cars = ["Saab", "Volvo", "BMW", "Toyota"];
 
 // Date object:
 const date = new Date("2022-03-25");
