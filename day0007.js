@@ -42,3 +42,14 @@ answer1 + "<br>" +
 answer2 + "<br>" + 
 answer3;
 </script>
+
+<p>A BigInt can not have decimals.</p>
+
+<p id="demo5"></p>
+
+<p>You cannot perform math between a BigInt type and a Number type.</p>
+
+<script>
+let x = BigInt("123456789012345678901234567890");
+document.getElementById("demo5").innerHTML = x; 
+</script>
