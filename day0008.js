@@ -19,4 +19,14 @@ function toCelsius(f) {
 document.getElementById("demo1").innerHTML = toCelsius(77);
 </script>
 
+<p id="demo2"></p>
+
+<script>
+document.getElementById("demo2").innerHTML =
+"The temperature is " + toCelsius(77) + " Celsius";
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
+</script>
 
