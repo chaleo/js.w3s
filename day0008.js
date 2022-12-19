@@ -9,3 +9,14 @@ function myFunction(p1, p2) {
 document.getElementById("demo0").innerHTML = myFunction(4, 3);
 </script>
 
+<p>This example calls a function to convert from Fahrenheit to Celsius:</p>
+<p id="demo1"></p>
+
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+document.getElementById("demo1").innerHTML = toCelsius(77);
+</script>
+
+
