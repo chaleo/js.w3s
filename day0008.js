@@ -30,3 +30,21 @@ function toCelsius(fahrenheit) {
 } 
 </script>
 
+<p>Outside myFunction() carName is undefined.</p>
+
+<p id="demo6"></p>
+
+<p id="demo7"></p>
+
+<script>
+myFunction();
+
+function myFunction() {
+  let carName = "Volvo";
+  document.getElementById("demo6").innerHTML =
+  typeof carName + " -a- " + carName;
+}
+
+document.getElementById("demo7").innerHTML =
+typeof carName;
+</script>
