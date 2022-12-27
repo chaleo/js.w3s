@@ -20,3 +20,16 @@ const car = {type:"Fiat", model:"500", color:"white"};
 document.getElementById("demo2").innerHTML = "The car type is " + car.type;
 </script>
 
+<h2>JavaScript Objects</h2>
+
+<p id="demo3"></p>
+
+<script>
+// Create an object:
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+// Display some data from the object:
+document.getElementById("demo3").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+
