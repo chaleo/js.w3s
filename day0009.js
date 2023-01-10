@@ -71,3 +71,6 @@ const person = {
 // Display data from the object:
 document.getElementById("demo5").innerHTML = person.fullName();
 </script>
+
+// 2023 01 10 // JavaScript Events
+
