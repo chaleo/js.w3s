@@ -74,3 +74,11 @@ document.getElementById("demo5").innerHTML = person.fullName();
 
 // 2023 01 10 // JavaScript Events
 
+<body>
+
+<button onclick="document.getElementById('demo0110a').innerHTML=Date()">The time is?</button>
+
+<p id="demo0110a"></p>
+
+</body>
+
