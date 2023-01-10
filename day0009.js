@@ -105,3 +105,20 @@ function displayDate() {
 <p id="demo0110b"></p>
 
 </body>
+
+<body>
+
+<h2>JavaScript HTML Events</h2>
+<p>Click the button to display the date.</p>
+
+<button onmouseover="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo0110c").innerHTML = Date();
+}
+</script>
+
+<p id="demo0110c"></p>
+
+</body>
