@@ -14,3 +14,22 @@ carName1 + " " + carName2;
 </script>
 
 </body>
+
+<body>
+
+<h1>JavaScript Strings</h1>
+<p>You can use quotes inside a string, as long as they do not match the quotes surrounding the string.</p>
+
+<p id="demo1"></p>
+
+<script>
+let answer1 = "It's alright";
+let answer2 = "He is called 'Johnny'";
+let answer3 = 'He is called "Johnny"'; 
+
+document.getElementById("demo1").innerHTML =
+answer1 + "<br>" + answer2 + "<br>" + answer3; 
+</script>
+
+</body>
+
