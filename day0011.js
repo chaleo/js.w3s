@@ -33,3 +33,17 @@ answer1 + "<br>" + answer2 + "<br>" + answer3;
 
 </body>
 
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The length Property</h2>
+
+<p>The length of the string is:</p>
+<p id="demo2"></p>
+
+<script>
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo2").innerHTML = text.length;
+</script>
+
+</body>
